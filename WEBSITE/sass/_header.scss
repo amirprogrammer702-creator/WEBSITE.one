@@ -1,0 +1,37 @@
+header {
+  direction: $dir;
+  font-family: $fontname;
+  background-color: $color_header;
+  color: theme-color(text);
+  border-bottom: 1px solid color-shade(theme-color(primary), 20%);
+  font-size: $fontsize;
+ 
+
+  nav {
+    
+    ul {
+      list-style: none;
+      li {
+        a {
+
+          margin-bottom: -15px;
+          border-radius: 10px 10px;
+          display: block;
+          color: theme-color(text);
+          padding: 1rem 2rem;
+          text-decoration: none;
+          font-weight: 500;
+
+          &:hover {
+            background-color: 
+            $color;
+            color: color-shade(theme-color(primary), 15%);
+          }
+        }
+      }
+    }
+
+  }
+
+
+}

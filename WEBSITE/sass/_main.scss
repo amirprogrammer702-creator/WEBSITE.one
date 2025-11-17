@@ -1,0 +1,32 @@
+    form{
+            max-width: 400px;
+            margin: auto;
+            padding: 20px 100px;
+            background: rgb(17, 102, 158);
+            border-radius: 5%;
+            box-shadow:0px 0px 30px #0fbd6c;
+        }
+    main{
+         padding: 30px 15px;
+            background-color: rgb(5, 43, 58);
+            display: flex;
+            color: #dfdfdf;
+        
+    }
+    label{
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+form>input{
+    width:100%;
+    border: 5px solid rgb(14, 180, 166);
+    border-radius: 30px;
+    padding: 6px;
+    margin-bottom: 15px;
+}
+ input.c4{
+    color: #0fbd6c;
+    cursor: pointer;
+}
+
